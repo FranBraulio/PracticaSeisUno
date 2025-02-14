@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest              # El trabajo se ejecuta en Ubuntu
 
     steps:
-      # 1️⃣ Descargar el código fuente del repositorio
+      # 1️⃣ Descargar el código fuente del repositorio 
       - name: Checkout source code       # Nombre del paso.
         uses: actions/checkout@v2        # Clonar el repositorio.
 

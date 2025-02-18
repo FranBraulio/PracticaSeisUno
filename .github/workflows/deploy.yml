@@ -25,7 +25,6 @@ jobs:
       - name: Build and test with Maven
         run: |
           mvn clean package
-          mvn test
 
       # 4️⃣ Copiar el archivo .war a la instancia EC2
       - name: Copy .war to EC2          # Nombre del paso.

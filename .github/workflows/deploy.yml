@@ -25,6 +25,7 @@ jobs:
       - name: Build with Maven          # Nombre del paso.
         run: mvn clean package          # Construir proyecto, generando .war.
 
+      # 3️⃣ Construir la aplicación usando Maven
       - name: Build and test with Maven
         run: |
           mvn clean package
